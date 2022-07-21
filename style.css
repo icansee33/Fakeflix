@@ -1,0 +1,322 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #141414;
+    
+}
+
+.main-section {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-image: url("https://pursuenews.com/wp-content/uploads/2021/11/Arcane-season-1-Netflix.webp");
+}
+ 
+.cabecera img{
+    /* margin-top: rem; */
+    margin-left: 1rem;
+}
+
+.titulo{
+    height: 100%;
+    width: 50%;
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    margin-left: 6.5rem;
+    margin-top: 10rem;
+}
+
+.titulo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F3F3F3;
+    margin: 0.6rem 1rem;
+}
+
+.buttons{
+    font-size: 2rem;
+    display: flex;
+    height: 4rem;
+    flex-direction: column;
+
+}
+.color1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F3F3F3;
+    font-size: 1.5rem;
+    background-color: #e50914;
+    border-color: #E50914;
+    margin-inline: 1rem;
+    border-radius: 7%;
+    
+}
+
+.color2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F3F3F3;
+    font-size: 1rem;
+    background-color: #14141492;
+    margin-inline: 1rem;
+    margin-right: rem;
+    border-radius: 7%;
+    
+}
+
+.descripcion{
+    padding-top: 0.1rem;
+    padding-left: 1rem;
+    font-size: 8px;
+    max-width: 300rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F3F3F3;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F3F3F3;
+    padding-left:6rem;
+}
+
+
+.visual{
+    flex-direction: column;
+    
+}
+
+.imagen{
+    width: 270px;
+    padding-left: 3.4rem;    
+
+}
+
+
+.imagen2{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.imagen3{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.imagen4{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.imagen5{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.imagen6{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.imagen7{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.imagen8{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.imagen9{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.imagen10{
+    width: 270px;
+    padding-left: 3.4rem;
+    padding-top: 1rem;
+}
+
+.vector{
+    width: 200px;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.etiquetas{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    font-size: 0.7rem;
+    flex-direction: column;
+    padding-left: 8.3rem;  
+}
+
+@media screen and (min-width: 375px) {
+    .FG{
+        display: none;
+        
+    }
+
+    .navi{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 768px)  {
+    .titulo{
+        text-align: center;
+    }
+    .buttons{
+        pointer-events: all;
+    }
+    .subtitulo{
+        padding-left: 2rem;
+    }
+
+    .imagen{
+        width: 300px;
+    padding-left: 3rem;
+    padding-top: 1rem;
+
+    }
+
+    .imagen2{
+        width: 270px;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+    }
+
+    .lista{
+        padding-left: 10.5rem;
+    }
+
+    .navi{
+        display: none;
+    }
+   
+}
+
+@media screen and (min-width: 1440px) {
+    .lista{
+        padding-left: 30rem;
+    }
+     
+    .FG{
+        display: flex;
+    }
+
+    .F{
+        display: none;
+    }
+
+
+    .titulo{
+        font-size: 2rem;
+    }
+
+    .navi{
+        display: flex;
+        font-size: 3rem;
+    }
+
+    .cabecera a{
+        margin: 0.6rem 1rem;
+        font-size: 2rem;
+        color: #F3F3F3; 
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .contenedori{
+        display: flex;
+    }
+
+    .imagen{
+        transition: transform .2s; 
+    }
+    
+    .imagen:hover{
+        transform: scale(1.5);
+    }
+
+    .imagen2{
+        transition: transform .2s; 
+    }
+    
+    .imagen2:hover{
+        transform: scale(1.5);
+    }
+
+    .imagen3{
+        transition: transform .2s; 
+    }
+    
+    .imagen3:hover{
+        transform: scale(1.5);
+    }
+
+    .imagen4{
+        transition: transform .2s; 
+    }
+    
+    .imagen4:hover{
+        transform: scale(1.5);
+    }
+
+    .imagen5{
+        transition: transform .2s; 
+    }
+    
+    .imagen5:hover{
+        transform: scale(1.5);
+    }
+
+    .imagen6{
+        transition: transform .2s; 
+    }
+    
+    .imagen6:hover{
+        transform: scale(1.5);
+    }
+
+    .imagen7{
+        transition: transform .2s; 
+    }
+    
+    .imagen7:hover{
+        transform: scale(1.5);
+    }
+
+    .imagen8{
+        transition: transform .2s; 
+    }
+    
+    .imagen8:hover{
+        transform: scale(1.5);
+    }
+    .imagen9{
+        transition: transform .2s; 
+    }
+    
+    .imagen9:hover{
+        transform: scale(1.5);
+    }
+    .imagen10{
+        transition: transform .2s; 
+    }
+    
+    .imagen10:hover{
+        transform: scale(1.5);
+    }
+}
+
